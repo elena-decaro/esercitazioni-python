@@ -1,0 +1,49 @@
+#esercizio condizione if
+
+#esercizio semplice che usa solo 'if' - 'else'
+#faccio la prima richiesta
+print("Qual è la risposta alla domanda fondamentale sulla vita, l'universo e tutto quanto?")
+
+#lascio che l'utente inserisca la risposta, che sarà il valore della variabile 'risposta'
+risposta = input("Scrivi la tua risposta qua: ")
+
+#se la risposta sarà 42...
+if risposta == 42:
+    print("Addio e grazie per il pesce!")
+    #...allora andrà tutto bene.
+
+#se la risposta NON sarà 42... 
+else: 
+    print("Sbagliato!! Dovresti rileggere Guida Galattica :<")
+    #...allora riceverai altre istruzioni.
+
+print(" ") #alascio uno spazio, per 'staccare'. Non è una soluzione elegante ma è l'unica che so fare per ora.
+print("Sta arrivando una nuova parte!")
+print(" ") #altro spazio per staccare
+
+#adesso scrivo un programmino che utilizzi anche la funzione 'elif'
+
+#importo la libreria
+import random
+
+#faccio inserire un numero a scelta dell'utente, e lo stampo a video
+numeroScelto = int(input("Inserisci un numero (intero!) qui: "))
+print("Il numero che hai inserito è questo: ", numeroScelto)
+
+#genero un numero randomico e lo stampo a video
+numeroRandom = random.randint(1,100)
+print("Il numero randomico che ti è uscito è questo: ", numeroRandom)
+
+#Se il numero scelto è uguale a quello randomico, allora...
+if numeroScelto == numeroRandom:
+    print("Il numero che hai inserito è uguale a quello che è uscito randomicamente!")
+#...altrimenti, se il numero scelto è minore di quello random, allora....
+elif numeroScelto < numeroRandom:
+    print("Il numero che hai inserito è minore del numero uscito randomicamente.")
+#... ancora: se il numero scelto è maggiore di quello random, scrivo questo:
+else:
+    print("Il numero che hai inserito è maggiore del numero uscito randomicamente.")
+
+#termino il programma
+print(" ") #spazietto tattico
+print("Il programma è terminato. You died.")

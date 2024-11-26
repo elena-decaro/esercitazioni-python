@@ -7,7 +7,7 @@
 
 
 #password = int,str(input("Inserisci la tua password qui"))
-#passwordInserita = ["PasswordGiusta1", "passwordGiusta2"]
+#passwordInserita = ["PasswordGiusta1", "passwordGfloatiusta2"]
 #if password in passwordInserita:
 #    print("Puoi accedere!")
 #else:
