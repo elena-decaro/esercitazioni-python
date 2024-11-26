@@ -72,3 +72,5 @@ elif numeroScelto < numeroRandom:
     print("Il numero che hai scelto è minore del numero random")
 else: 
     print("Hai scelto lo stesso numero del numero random!")
+
+    #commento
