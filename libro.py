@@ -73,3 +73,8 @@ def libriprestati():
     print("Questa è la lista dei libri che ti sono stati prestati:")
     print(libriPrestati)
     print(" ")#spazio tattico
+
+def uscita():
+    print(" ")#spazio tattico
+    print("Ci vediamo la prossima volta :)")
+    print("Fai ripartire il programma per tornare al menù principale")

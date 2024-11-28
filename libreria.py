@@ -1,5 +1,5 @@
 #intanto creo il menù che l'utente può utilizzare per scegliere ciò che vuole fare.
-from libro import visualizza, aggiungere, prestito, restituizione, libriprestati, disponibilita
+from libro import visualizza, aggiungere, prestito, restituizione, libriprestati, disponibilita, uscita
 from libro import listaLibri
 from libro import libriPrestati
 
@@ -28,9 +28,13 @@ while (True):
         restituizione() 
     elif scelta == 6:
         libriprestati()
-    else:
-        print(" ")#spazio tattico
-        print("Ci vediamo la prossima volta :)")
-        print("Premi la freccia per far partire di nuovo il processo!")
+    elif scelta == 7:
+        uscita()
         break
+    else: 
+        print(" ")
+        print("Questa opzione non è disponibile.")
+        print("Per favore, scegli un'opzione presente nel menù.")
+        print("Fai ripartire il programma per tornare al menù principale.")
+        print(" ")
 
