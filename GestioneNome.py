@@ -1,2 +1,2 @@
 def VisualizzaNome(nome):
-  print("Nome: " + nome)  
+  print("Nome: " + nome) 
